@@ -172,9 +172,9 @@ while(1):
         array = []
         print("Total score for %s" % (avg))
 	if avg >=3:
-		os.system("ssh pi@192.168.0.161 python /home/pi/Downloads/hand_gesture &")
+		os.system("ssh pi@192.168.0.161 python /home/pi/Downloads/hand_gesture/blink_fast.py &")
 	else:
-		os.system("ssh pi@192.168.0.161 python /home/pi/Downloads/hand_gesture &")
+		os.system("ssh pi@192.168.0.161 python /home/pi/Downloads/hand_gesture/blink_slow.py &")
 	time.sleep(1)
     #show height raised fingers
     #cv2.putText(frame,'finger1',tuple(finger[0]),font,2,(255,255,255),2)
