@@ -15,3 +15,6 @@ For demo purpose I have controlled LED attached to Raspberry Pi's GPIO (pin numb
 
 
 Hand gesture code is tweaked from repo https://github.com/sashagaz/Hand_Detection
+
+## Stats
+![visitors](https://visitor-badge.glitch.me/badge?page_id=jayeshathila.Hand-Gesture-Controlled-Electronics)	![code-size](https://img.shields.io/github/languages/code-size/jayeshathila/Hand-Gesture-Controlled-Electronics)
